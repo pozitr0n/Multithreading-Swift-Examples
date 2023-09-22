@@ -129,5 +129,6 @@ class PrinterThread: Thread {
 
 let writeT = WriterThread()
 let printT = PrinterThread()
+
 printT.start()
 writeT.start()
