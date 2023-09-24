@@ -27,8 +27,10 @@ class TwoViewController: UIViewController {
         
         print("Not yet started...")
         inactiveQueue.activate()
+        
         print("Activate!")
         inactiveQueue.suspend()
+        
         print("Pause!")
         inactiveQueue.resume()
         
