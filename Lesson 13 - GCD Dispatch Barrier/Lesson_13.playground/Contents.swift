@@ -51,6 +51,7 @@ class SafeArray<T> {
 }
 
 var arraySafe = SafeArray<Int>()
+
 DispatchQueue.concurrentPerform(iterations: 10) { (index) in
     arraySafe.appendToArray(index)
 }
