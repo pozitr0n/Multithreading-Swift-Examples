@@ -18,8 +18,10 @@ class ConditionMutexPrinter: Thread {
     }
     
     override func main() {
+        
         print("This is my class")
         printerMethod()
+        
     }
     
     private func printerMethod() {
