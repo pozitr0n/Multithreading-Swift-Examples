@@ -13,6 +13,7 @@ queue.async {
     
     semaphore.wait() // explain: value minus 1          -1
     sleep(1)
+    
     print("method 1")
     semaphore.signal() // explain: value plus 1         +1
     
@@ -22,6 +23,7 @@ queue.async {
     
     semaphore.wait() // explain: value minus 1          -1
     sleep(1)
+    
     print("method 2")
     semaphore.signal() // explain: value plus 1         +1
     
