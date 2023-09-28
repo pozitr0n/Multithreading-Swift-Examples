@@ -169,9 +169,11 @@ func asyncGroup() {
     }
     
     aGroup.notify(queue: .main) {
+        
         for i in 0...images.count - 1 {
             view.picArray[i].image = images[i]
         }
+        
     }
     
 }
