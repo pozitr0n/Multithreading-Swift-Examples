@@ -47,8 +47,10 @@ class TwoViewController: UIViewController {
         queue.async {
             
             DispatchQueue.concurrentPerform(iterations: 2000000) { i in
+                
                 print(i)
                 print(Thread.current)
+                
             }
             
         }
