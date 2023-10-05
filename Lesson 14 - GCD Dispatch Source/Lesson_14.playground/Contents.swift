@@ -5,6 +5,7 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 
 var str = "GCD Dispatch Source"
 
+// "timer" using DispatchSource
 let timer = DispatchSource.makeTimerSource(queue: DispatchQueue.global())
 
 timer.setEventHandler {
