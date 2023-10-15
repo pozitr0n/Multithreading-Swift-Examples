@@ -10,8 +10,8 @@ import UIKit
 class TwoViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
         
+        super.viewDidLoad()
         myInactiveQueue()
         
     }
