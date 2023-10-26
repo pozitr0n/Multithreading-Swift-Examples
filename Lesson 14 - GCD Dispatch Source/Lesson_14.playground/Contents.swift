@@ -12,5 +12,8 @@ timer.setEventHandler {
     print("Yeah! It's time!")
 }
 
+// schedule
 timer.schedule(deadline: .now(), repeating: 5)
+
+// activate
 timer.activate()
